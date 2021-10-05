@@ -8,5 +8,5 @@ Goal: Deep faking of face masks onto unmasked faces.
 
 # Deadlines
 
-  Beta verison  # Dec 1 
-  Final version # Dec 10
+  Beta verison   Dec 1 
+  Final version  Dec 10
