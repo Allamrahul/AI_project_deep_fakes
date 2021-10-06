@@ -3,7 +3,9 @@
 Goal: Deep faking of face masks onto unmasked faces.
 
 # Methodology
-
+1. Clean and curate the original dataset of masked and unmasked individuals to get the images for training and testing. 
+2. We will be feeding pairs of masked and unmasked faces to the network so that both generator and the discriminator networks compete against each other so that the generator can learn to generate realistic face masked images. 
+3. We will be GANs (will explore out a few such as SimGAN, CycleGAN, StyleGAN, etc) to create realistic pictures of faces with facemasks.
 # Dataset
 
 # Deadlines
