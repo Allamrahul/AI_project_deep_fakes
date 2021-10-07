@@ -1,0 +1,5 @@
+- Having said that the actual utility and therefore impact is not clear: what is the application of this reverse problem? My suggestion is this reverse problem can be used to recognize people  with the fake masks (similar how there are methods that determine deep fake videos)
+
+- Another thing that is unclear is how you will assess your approach. I am not 100% sure. Perhaps you will need to manually annotate some of the generated fakes, but then you should have good, standardized criteria, so you don’t introduce a potential bias. Alternatively you can use Amazon Turks.
+
+- Methodology-wise I would go along similar approaches as in deep fake. Perhaps different features that focus more on the masked part of he face?
