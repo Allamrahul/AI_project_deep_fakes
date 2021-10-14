@@ -18,3 +18,4 @@ Goal: Deep faking of face masks onto unmasked faces.
   2. https://github.com/NVlabs/ffhq-dataset (for unmasked images) - Flickr-Faces-HQ (FFHQ) is a high-quality image dataset of 70,000 high-quality PNG images at 1024×1024 resolution of human faces.
   3. https://towardsdatascience.com/demystifying-gans-cc1ac011355 
   4. Cycle GAN paper : https://arxiv.org/abs/1703.10593
+  5. https://towardsdatascience.com/cycle-gan-with-pytorch-ebe5db947a99
