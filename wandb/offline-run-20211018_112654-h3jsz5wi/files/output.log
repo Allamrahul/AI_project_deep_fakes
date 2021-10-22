@@ -1,0 +1,39 @@
+create web directory ./checkpoints/unmasked_2_masked/web...
+learning rate 0.0002000 -> 0.0002000
+(epoch: 1, iters: 700, time: 0.060, data: 23.652) D_A: 0.319 G_A: 0.638 cycle_A: 3.061 idt_A: 1.202 D_B: 0.510 G_B: 0.681 cycle_B: 2.740 idt_B: 1.350
+(epoch: 1, iters: 1400, time: 0.060, data: 0.001) D_A: 0.234 G_A: 0.403 cycle_A: 1.986 idt_A: 0.859 D_B: 0.414 G_B: 0.555 cycle_B: 1.746 idt_B: 0.940
+(epoch: 1, iters: 2100, time: 0.056, data: 11.103) D_A: 0.235 G_A: 0.494 cycle_A: 2.976 idt_A: 1.005 D_B: 0.320 G_B: 0.330 cycle_B: 2.197 idt_B: 1.225
+(epoch: 1, iters: 2800, time: 0.743, data: 9.701) D_A: 0.250 G_A: 0.456 cycle_A: 2.452 idt_A: 0.799 D_B: 0.249 G_B: 0.345 cycle_B: 2.136 idt_B: 1.148
+/usr/local/lib/python3.7/dist-packages/torch/optim/lr_scheduler.py:134: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 521, in __next__
+    data = self._next_data()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1186, in _next_data
+    idx, data = self._get_data()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1152, in _get_data
+    success, data = self._try_get_data()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 990, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.7/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "train.py", line 44, in <module>
+    model.update_learning_rate()    # update learning rates in the beginning of every epoch.
+  File "/content/gdrive/My Drive/Workspace/pytorch-CycleGAN-and-pix2pix/data/__init__.py", line 90, in __iter__
+    for i, data in enumerate(self.dataloader):
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 534, in __next__
+    return data
+  File "/usr/local/lib/python3.7/dist-packages/torch/autograd/profiler.py", line 619, in __exit__
+    torch.ops.profiler._record_function_exit(self.handle)
+KeyboardInterrupt

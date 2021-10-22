@@ -1,0 +1,32 @@
+{
+    "os": "Linux-5.4.104+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.12",
+    "heartbeatAt": "2021-10-18T19:08:56.048290",
+    "startedAt": "2021-10-18T19:08:53.859838",
+    "docker": null,
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--dataroot",
+        "./datasets/unmasked_2_masked",
+        "--name",
+        "unmasked_2_masked",
+        "--model",
+        "cycle_gan",
+        "--use_wandb"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix.git",
+        "commit": "cf4191a3a4cc77fdffa5c0a8246c346049958e78"
+    },
+    "email": null,
+    "root": "/content/gdrive/My Drive/Workspace/pytorch-CycleGAN-and-pix2pix",
+    "host": "a94bd7ad9fd5",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

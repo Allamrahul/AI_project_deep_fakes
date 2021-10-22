@@ -1,0 +1,5 @@
+creating web directory ./results/unmasked_2_masked/test_latest
+processing (0000)-th image... ['./datasets/unmasked_2_masked/testA/24005.png']
+processing (0005)-th image... ['./datasets/unmasked_2_masked/testB/00007_Mask.jpg']
+processing (0010)-th image... ['./datasets/unmasked_2_masked/trainA/24001.png']
+processing (0015)-th image... ['./datasets/unmasked_2_masked/trainB/00021_Mask.jpg']

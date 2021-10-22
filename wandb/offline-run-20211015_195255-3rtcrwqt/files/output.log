@@ -1,0 +1,32 @@
+create web directory ./checkpoints/unmasked_2_masked/web...
+learning rate 0.0002000 -> 0.0002000
+/usr/local/lib/python3.7/dist-packages/torch/optim/lr_scheduler.py:134: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py:481: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))
+Traceback (most recent call last):
+  File "train.py", line 52, in <module>
+    model.optimize_parameters()   # calculate loss functions, get gradients, update network weights
+  File "/content/gdrive/MyDrive/Workspace/pytorch-CycleGAN-and-pix2pix/models/cycle_gan_model.py", line 183, in optimize_parameters
+    self.forward()      # compute fake images and reconstruction images.
+  File "/content/gdrive/MyDrive/Workspace/pytorch-CycleGAN-and-pix2pix/models/cycle_gan_model.py", line 115, in forward
+    self.rec_A = self.netG_B(self.fake_B)   # G_B(G_A(A))
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/parallel/data_parallel.py", line 166, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/content/gdrive/MyDrive/Workspace/pytorch-CycleGAN-and-pix2pix/models/networks.py", line 373, in forward
+    return self.model(input)
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/modules/instancenorm.py", line 59, in forward
+    self.training or not self.track_running_stats, self.momentum, self.eps)
+  File "/usr/local/lib/python3.7/dist-packages/torch/nn/functional.py", line 2327, in instance_norm
+    input, weight, bias, running_mean, running_var, use_input_stats, momentum, eps, torch.backends.cudnn.enabled
+RuntimeError: CUDA out of memory. Tried to allocate 200.00 MiB (GPU 0; 11.17 GiB total capacity; 9.51 GiB already allocated; 71.81 MiB free; 10.61 GiB reserved in total by PyTorch)

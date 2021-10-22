@@ -1,0 +1,32 @@
+2021-10-18 11:26:54,516 INFO    MainThread:438 [wandb_setup.py:_flush():69] setting env: {}
+2021-10-18 11:26:54,517 INFO    MainThread:438 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-10-18 11:26:54,517 INFO    MainThread:438 [wandb_setup.py:_flush():69] setting login settings: {'mode': 'offline'}
+2021-10-18 11:26:54,518 INFO    MainThread:438 [wandb_init.py:_log_setup():357] Logging user logs to /content/gdrive/My Drive/Workspace/pytorch-CycleGAN-and-pix2pix/wandb/offline-run-20211018_112654-h3jsz5wi/logs/debug.log
+2021-10-18 11:26:54,518 INFO    MainThread:438 [wandb_init.py:_log_setup():358] Logging internal logs to /content/gdrive/My Drive/Workspace/pytorch-CycleGAN-and-pix2pix/wandb/offline-run-20211018_112654-h3jsz5wi/logs/debug-internal.log
+2021-10-18 11:26:54,518 INFO    MainThread:438 [wandb_init.py:init():390] calling init triggers
+2021-10-18 11:26:54,518 INFO    MainThread:438 [wandb_init.py:init():397] wandb.init called with sweep_config: {}
+config: {'dataroot': './datasets/unmasked_2_masked', 'name': 'unmasked_2_masked', 'use_wandb': True, 'gpu_ids': [0], 'checkpoints_dir': './checkpoints', 'model': 'cycle_gan', 'input_nc': 3, 'output_nc': 3, 'ngf': 64, 'ndf': 64, 'netD': 'basic', 'netG': 'resnet_9blocks', 'n_layers_D': 3, 'norm': 'instance', 'init_type': 'normal', 'init_gain': 0.02, 'no_dropout': True, 'dataset_mode': 'unaligned', 'direction': 'AtoB', 'serial_batches': False, 'num_threads': 4, 'batch_size': 14, 'load_size': 134, 'crop_size': 128, 'max_dataset_size': inf, 'preprocess': 'resize_and_crop', 'no_flip': False, 'display_winsize': 256, 'epoch': 'latest', 'load_iter': 0, 'verbose': False, 'suffix': '', 'display_freq': 400, 'display_ncols': 4, 'display_id': 1, 'display_server': 'http://localhost', 'display_env': 'main', 'display_port': 8097, 'update_html_freq': 1000, 'print_freq': 100, 'no_html': False, 'save_latest_freq': 5000, 'save_epoch_freq': 10, 'save_by_iter': False, 'continue_train': False, 'epoch_count': 1, 'phase': 'train', 'n_epochs': 100, 'n_epochs_decay': 100, 'beta1': 0.5, 'lr': 0.0002, 'gan_mode': 'lsgan', 'pool_size': 50, 'lr_policy': 'linear', 'lr_decay_iters': 50, 'lambda_A': 10.0, 'lambda_B': 10.0, 'lambda_identity': 0.5, 'isTrain': True}
+2021-10-18 11:26:54,519 INFO    MainThread:438 [wandb_init.py:init():435] starting backend
+2021-10-18 11:26:54,519 INFO    MainThread:438 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-10-18 11:26:54,544 INFO    MainThread:438 [backend.py:ensure_launched():135] starting backend process...
+2021-10-18 11:26:54,564 INFO    MainThread:438 [backend.py:ensure_launched():140] started backend process with pid: 478
+2021-10-18 11:26:54,566 INFO    MainThread:438 [wandb_init.py:init():440] backend started and connected
+2021-10-18 11:26:54,569 INFO    MainThread:438 [wandb_init.py:init():499] updated telemetry
+2021-10-18 11:26:54,571 INFO    MainThread:438 [wandb_init.py:init():562] starting run threads in backend
+2021-10-18 11:26:59,572 INFO    MainThread:438 [wandb_run.py:_console_start():1651] atexit reg
+2021-10-18 11:26:59,575 INFO    MainThread:438 [wandb_run.py:_redirect():1525] redirect: SettingsConsole.REDIRECT
+2021-10-18 11:26:59,575 INFO    MainThread:438 [wandb_run.py:_redirect():1530] Redirecting console.
+2021-10-18 11:26:59,577 INFO    MainThread:438 [wandb_run.py:_redirect():1586] Redirects installed.
+2021-10-18 11:26:59,577 INFO    MainThread:438 [wandb_init.py:init():587] run started, returning control to user process
+2021-10-18 11:43:56,937 INFO    MainThread:438 [wandb_run.py:_atexit_cleanup():1621] got exitcode: 255
+2021-10-18 11:43:56,938 INFO    MainThread:438 [wandb_run.py:_restore():1593] restore
+2021-10-18 11:43:59,700 INFO    MainThread:438 [wandb_run.py:_wait_for_finish():1746] got exit ret: 
+2021-10-18 11:43:59,802 INFO    MainThread:438 [wandb_run.py:_wait_for_finish():1746] got exit ret: 
+2021-10-18 11:43:59,904 INFO    MainThread:438 [wandb_run.py:_wait_for_finish():1746] got exit ret: done: true
+exit_result {
+}
+local_info {
+}
+
+2021-10-18 11:44:01,208 INFO    MainThread:438 [wandb_run.py:_append_history():1959] rendering history
+2021-10-18 11:44:01,209 INFO    MainThread:438 [wandb_run.py:_append_summary():1914] rendering summary

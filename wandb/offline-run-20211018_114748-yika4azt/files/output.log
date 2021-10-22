@@ -1,0 +1,18 @@
+create web directory ./checkpoints/unmasked_2_masked/web...
+learning rate 0.0002000 -> 0.0002000
+(epoch: 1, iters: 700, time: 0.060, data: 9.265) D_A: 0.304 G_A: 0.505 cycle_A: 2.477 idt_A: 1.074 D_B: 0.378 G_B: 0.476 cycle_B: 2.326 idt_B: 1.140
+(epoch: 1, iters: 1400, time: 0.059, data: 3.860) D_A: 0.243 G_A: 0.515 cycle_A: 2.136 idt_A: 0.821 D_B: 0.522 G_B: 0.597 cycle_B: 1.815 idt_B: 0.979
+/usr/local/lib/python3.7/dist-packages/torch/optim/lr_scheduler.py:134: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+Traceback (most recent call last):
+  File "train.py", line 53, in <module>
+    model.optimize_parameters()   # calculate loss functions, get gradients, update network weights
+  File "/content/gdrive/My Drive/Workspace/pytorch-CycleGAN-and-pix2pix/models/cycle_gan_model.py", line 187, in optimize_parameters
+    self.backward_G()             # calculate gradients for G_A and G_B
+  File "/content/gdrive/My Drive/Workspace/pytorch-CycleGAN-and-pix2pix/models/cycle_gan_model.py", line 178, in backward_G
+    self.loss_G.backward()
+  File "/usr/local/lib/python3.7/dist-packages/torch/_tensor.py", line 255, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/usr/local/lib/python3.7/dist-packages/torch/autograd/__init__.py", line 149, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+KeyboardInterrupt

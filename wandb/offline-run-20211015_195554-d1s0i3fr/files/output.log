@@ -1,0 +1,42 @@
+create web directory ./checkpoints/unmasked_2_masked/web...
+learning rate 0.0002000 -> 0.0002000
+(epoch: 1, iters: 300, time: 1.311, data: 2.088) D_A: 0.351 G_A: 0.449 cycle_A: 1.987 idt_A: 0.763 D_B: 0.294 G_B: 0.376 cycle_B: 1.759 idt_B: 0.802
+(epoch: 1, iters: 600, time: 1.311, data: 0.004) D_A: 0.217 G_A: 0.444 cycle_A: 1.856 idt_A: 0.652 D_B: 0.339 G_B: 0.441 cycle_B: 1.491 idt_B: 1.032
+(epoch: 1, iters: 900, time: 1.312, data: 0.004) D_A: 0.178 G_A: 0.602 cycle_A: 1.738 idt_A: 0.717 D_B: 0.290 G_B: 0.433 cycle_B: 2.373 idt_B: 0.700
+(epoch: 1, iters: 1200, time: 1.653, data: 0.004) D_A: 0.196 G_A: 0.401 cycle_A: 2.134 idt_A: 1.028 D_B: 0.258 G_B: 0.346 cycle_B: 2.622 idt_B: 0.811
+(epoch: 1, iters: 1500, time: 1.346, data: 0.004) D_A: 0.178 G_A: 0.429 cycle_A: 1.866 idt_A: 0.658 D_B: 0.232 G_B: 0.314 cycle_B: 1.484 idt_B: 0.903
+(epoch: 1, iters: 1800, time: 1.348, data: 0.004) D_A: 0.302 G_A: 0.494 cycle_A: 1.356 idt_A: 0.581 D_B: 0.181 G_B: 0.430 cycle_B: 1.335 idt_B: 0.609
+(epoch: 1, iters: 2100, time: 1.346, data: 0.006) D_A: 0.199 G_A: 0.258 cycle_A: 1.796 idt_A: 0.759 D_B: 0.277 G_B: 0.352 cycle_B: 1.620 idt_B: 0.735
+(epoch: 1, iters: 2400, time: 1.504, data: 0.005) D_A: 0.224 G_A: 0.396 cycle_A: 1.918 idt_A: 0.616 D_B: 0.230 G_B: 0.278 cycle_B: 1.380 idt_B: 0.834
+(epoch: 1, iters: 2700, time: 1.347, data: 0.005) D_A: 0.173 G_A: 0.432 cycle_A: 1.681 idt_A: 0.533 D_B: 0.197 G_B: 0.384 cycle_B: 1.218 idt_B: 0.770
+(epoch: 1, iters: 3000, time: 1.313, data: 0.004) D_A: 0.207 G_A: 0.417 cycle_A: 2.086 idt_A: 0.475 D_B: 0.211 G_B: 0.262 cycle_B: 1.103 idt_B: 0.979
+(epoch: 1, iters: 3300, time: 1.313, data: 0.003) D_A: 0.182 G_A: 0.445 cycle_A: 2.012 idt_A: 0.673 D_B: 0.217 G_B: 0.219 cycle_B: 1.580 idt_B: 0.722
+(epoch: 1, iters: 3600, time: 1.481, data: 0.006) D_A: 0.147 G_A: 0.364 cycle_A: 1.281 idt_A: 0.450 D_B: 0.212 G_B: 0.459 cycle_B: 1.093 idt_B: 0.633
+(epoch: 1, iters: 3900, time: 1.350, data: 0.005) D_A: 0.169 G_A: 0.466 cycle_A: 1.447 idt_A: 0.475 D_B: 0.225 G_B: 0.394 cycle_B: 1.039 idt_B: 0.688
+(epoch: 1, iters: 4200, time: 1.350, data: 0.004) D_A: 0.216 G_A: 0.764 cycle_A: 1.365 idt_A: 0.598 D_B: 0.199 G_B: 0.430 cycle_B: 1.334 idt_B: 0.639
+(epoch: 1, iters: 4500, time: 1.350, data: 0.004) D_A: 0.289 G_A: 0.632 cycle_A: 1.246 idt_A: 0.487 D_B: 0.204 G_B: 0.341 cycle_B: 1.159 idt_B: 0.486
+(epoch: 1, iters: 4800, time: 1.558, data: 0.004) D_A: 0.152 G_A: 0.446 cycle_A: 1.595 idt_A: 0.401 D_B: 0.245 G_B: 0.366 cycle_B: 0.943 idt_B: 0.744
+(epoch: 1, iters: 5100, time: 1.346, data: 0.005) D_A: 0.209 G_A: 0.743 cycle_A: 1.376 idt_A: 0.681 D_B: 0.126 G_B: 0.410 cycle_B: 1.412 idt_B: 0.810
+End of epoch 1 / 200 	 Time Taken: 6470 sec
+learning rate 0.0002000 -> 0.0002000
+(epoch: 2, iters: 276, time: 1.350, data: 0.004) D_A: 0.210 G_A: 0.473 cycle_A: 1.246 idt_A: 0.668 D_B: 0.204 G_B: 0.426 cycle_B: 1.442 idt_B: 0.582
+(epoch: 2, iters: 576, time: 1.344, data: 0.004) D_A: 0.182 G_A: 0.384 cycle_A: 2.033 idt_A: 0.381 D_B: 0.299 G_B: 0.109 cycle_B: 0.867 idt_B: 0.815
+(epoch: 2, iters: 876, time: 1.703, data: 0.004) D_A: 0.141 G_A: 0.426 cycle_A: 1.830 idt_A: 0.486 D_B: 0.167 G_B: 0.309 cycle_B: 0.952 idt_B: 0.858
+(epoch: 2, iters: 1176, time: 1.351, data: 0.005) D_A: 0.140 G_A: 0.535 cycle_A: 1.743 idt_A: 0.608 D_B: 0.138 G_B: 0.354 cycle_B: 1.462 idt_B: 0.476
+(epoch: 2, iters: 1476, time: 1.352, data: 0.003) D_A: 0.076 G_A: 0.544 cycle_A: 1.200 idt_A: 0.401 D_B: 0.213 G_B: 0.318 cycle_B: 1.004 idt_B: 0.552
+/usr/local/lib/python3.7/dist-packages/torch/optim/lr_scheduler.py:134: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py:481: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))
+Traceback (most recent call last):
+  File "train.py", line 52, in <module>
+    model.optimize_parameters()   # calculate loss functions, get gradients, update network weights
+  File "/content/gdrive/MyDrive/Workspace/pytorch-CycleGAN-and-pix2pix/models/cycle_gan_model.py", line 187, in optimize_parameters
+    self.backward_G()             # calculate gradients for G_A and G_B
+  File "/content/gdrive/MyDrive/Workspace/pytorch-CycleGAN-and-pix2pix/models/cycle_gan_model.py", line 178, in backward_G
+    self.loss_G.backward()
+  File "/usr/local/lib/python3.7/dist-packages/torch/_tensor.py", line 255, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/usr/local/lib/python3.7/dist-packages/torch/autograd/__init__.py", line 149, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+KeyboardInterrupt

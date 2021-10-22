@@ -1,0 +1,455 @@
+create web directory ./checkpoints/unmasked_2_masked/web...
+learning rate 0.0002000 -> 0.0002000
+End of epoch 1 / 200 	 Time Taken: 8 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 2 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 3 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 4 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 5, iters 25
+End of epoch 5 / 200 	 Time Taken: 8 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 6 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 7 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 8 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 9 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 10, iters 50
+End of epoch 10 / 200 	 Time Taken: 8 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 11 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 12 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 13 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 14 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 15, iters 75
+End of epoch 15 / 200 	 Time Taken: 10 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 16 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 17 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 18 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 19 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+(epoch: 20, iters: 5, time: 1.450, data: 0.926) D_A: 0.234 G_A: 0.517 cycle_A: 2.217 idt_A: 0.809 D_B: 0.233 G_B: 0.334 cycle_B: 1.984 idt_B: 1.028
+saving the model at the end of epoch 20, iters 100
+End of epoch 20 / 200 	 Time Taken: 8 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 21 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 22 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 23 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 24 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 25, iters 125
+End of epoch 25 / 200 	 Time Taken: 10 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 26 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 27 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 28 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 29 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 30, iters 150
+End of epoch 30 / 200 	 Time Taken: 10 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 31 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 32 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 33 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 34 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 35, iters 175
+End of epoch 35 / 200 	 Time Taken: 8 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 36 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 37 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 38 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 39 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+(epoch: 40, iters: 5, time: 1.451, data: 0.504) D_A: 0.179 G_A: 0.188 cycle_A: 1.365 idt_A: 0.605 D_B: 0.239 G_B: 0.265 cycle_B: 1.367 idt_B: 0.632
+saving the model at the end of epoch 40, iters 200
+End of epoch 40 / 200 	 Time Taken: 10 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 41 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 42 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 43 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 44 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 45, iters 225
+End of epoch 45 / 200 	 Time Taken: 8 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 46 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 47 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 48 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 49 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 50, iters 250
+End of epoch 50 / 200 	 Time Taken: 10 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 51 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 52 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 53 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 54 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 55, iters 275
+End of epoch 55 / 200 	 Time Taken: 8 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 56 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 57 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 58 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 59 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+(epoch: 60, iters: 5, time: 1.445, data: 0.471) D_A: 0.210 G_A: 0.530 cycle_A: 1.389 idt_A: 0.429 D_B: 0.293 G_B: 0.563 cycle_B: 1.075 idt_B: 0.657
+saving the model at the end of epoch 60, iters 300
+End of epoch 60 / 200 	 Time Taken: 10 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 61 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 62 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 63 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 64 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 65, iters 325
+End of epoch 65 / 200 	 Time Taken: 8 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 66 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 67 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 68 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 69 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 70, iters 350
+End of epoch 70 / 200 	 Time Taken: 10 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 71 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 72 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 73 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 74 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 75, iters 375
+End of epoch 75 / 200 	 Time Taken: 8 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 76 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 77 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 78 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 79 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+(epoch: 80, iters: 5, time: 2.941, data: 0.424) D_A: 0.256 G_A: 0.976 cycle_A: 1.184 idt_A: 0.428 D_B: 0.145 G_B: 0.353 cycle_B: 0.892 idt_B: 0.489
+saving the model at the end of epoch 80, iters 400
+End of epoch 80 / 200 	 Time Taken: 10 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 81 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 82 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 83 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 84 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 85, iters 425
+End of epoch 85 / 200 	 Time Taken: 10 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 86 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 87 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 88 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 89 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 90, iters 450
+End of epoch 90 / 200 	 Time Taken: 8 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 91 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 92 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 93 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 94 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+saving the model at the end of epoch 95, iters 475
+End of epoch 95 / 200 	 Time Taken: 8 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 96 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 97 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 98 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0002000
+End of epoch 99 / 200 	 Time Taken: 7 sec
+learning rate 0.0002000 -> 0.0001980
+(epoch: 100, iters: 5, time: 1.445, data: 0.443) D_A: 0.201 G_A: 0.550 cycle_A: 1.031 idt_A: 0.493 D_B: 0.212 G_B: 0.223 cycle_B: 1.045 idt_B: 0.460
+saving the model at the end of epoch 100, iters 500
+End of epoch 100 / 200 	 Time Taken: 8 sec
+learning rate 0.0001980 -> 0.0001960
+End of epoch 101 / 200 	 Time Taken: 7 sec
+learning rate 0.0001960 -> 0.0001941
+End of epoch 102 / 200 	 Time Taken: 7 sec
+learning rate 0.0001941 -> 0.0001921
+End of epoch 103 / 200 	 Time Taken: 7 sec
+learning rate 0.0001921 -> 0.0001901
+End of epoch 104 / 200 	 Time Taken: 7 sec
+learning rate 0.0001901 -> 0.0001881
+saving the model at the end of epoch 105, iters 525
+End of epoch 105 / 200 	 Time Taken: 10 sec
+learning rate 0.0001881 -> 0.0001861
+End of epoch 106 / 200 	 Time Taken: 7 sec
+learning rate 0.0001861 -> 0.0001842
+End of epoch 107 / 200 	 Time Taken: 7 sec
+learning rate 0.0001842 -> 0.0001822
+End of epoch 108 / 200 	 Time Taken: 7 sec
+learning rate 0.0001822 -> 0.0001802
+End of epoch 109 / 200 	 Time Taken: 7 sec
+learning rate 0.0001802 -> 0.0001782
+saving the model at the end of epoch 110, iters 550
+End of epoch 110 / 200 	 Time Taken: 8 sec
+learning rate 0.0001782 -> 0.0001762
+End of epoch 111 / 200 	 Time Taken: 7 sec
+learning rate 0.0001762 -> 0.0001743
+End of epoch 112 / 200 	 Time Taken: 7 sec
+learning rate 0.0001743 -> 0.0001723
+End of epoch 113 / 200 	 Time Taken: 7 sec
+learning rate 0.0001723 -> 0.0001703
+End of epoch 114 / 200 	 Time Taken: 7 sec
+learning rate 0.0001703 -> 0.0001683
+saving the model at the end of epoch 115, iters 575
+End of epoch 115 / 200 	 Time Taken: 10 sec
+learning rate 0.0001683 -> 0.0001663
+End of epoch 116 / 200 	 Time Taken: 7 sec
+learning rate 0.0001663 -> 0.0001644
+End of epoch 117 / 200 	 Time Taken: 7 sec
+learning rate 0.0001644 -> 0.0001624
+End of epoch 118 / 200 	 Time Taken: 7 sec
+learning rate 0.0001624 -> 0.0001604
+End of epoch 119 / 200 	 Time Taken: 7 sec
+learning rate 0.0001604 -> 0.0001584
+(epoch: 120, iters: 5, time: 1.449, data: 0.498) D_A: 0.155 G_A: 0.492 cycle_A: 0.937 idt_A: 0.551 D_B: 0.257 G_B: 0.530 cycle_B: 1.133 idt_B: 0.368
+saving the model at the end of epoch 120, iters 600
+End of epoch 120 / 200 	 Time Taken: 8 sec
+learning rate 0.0001584 -> 0.0001564
+End of epoch 121 / 200 	 Time Taken: 7 sec
+learning rate 0.0001564 -> 0.0001545
+End of epoch 122 / 200 	 Time Taken: 7 sec
+learning rate 0.0001545 -> 0.0001525
+End of epoch 123 / 200 	 Time Taken: 7 sec
+learning rate 0.0001525 -> 0.0001505
+End of epoch 124 / 200 	 Time Taken: 7 sec
+learning rate 0.0001505 -> 0.0001485
+saving the model at the end of epoch 125, iters 625
+End of epoch 125 / 200 	 Time Taken: 10 sec
+learning rate 0.0001485 -> 0.0001465
+End of epoch 126 / 200 	 Time Taken: 7 sec
+learning rate 0.0001465 -> 0.0001446
+End of epoch 127 / 200 	 Time Taken: 7 sec
+learning rate 0.0001446 -> 0.0001426
+End of epoch 128 / 200 	 Time Taken: 7 sec
+learning rate 0.0001426 -> 0.0001406
+End of epoch 129 / 200 	 Time Taken: 7 sec
+learning rate 0.0001406 -> 0.0001386
+saving the model at the end of epoch 130, iters 650
+End of epoch 130 / 200 	 Time Taken: 8 sec
+learning rate 0.0001386 -> 0.0001366
+End of epoch 131 / 200 	 Time Taken: 7 sec
+learning rate 0.0001366 -> 0.0001347
+End of epoch 132 / 200 	 Time Taken: 7 sec
+learning rate 0.0001347 -> 0.0001327
+End of epoch 133 / 200 	 Time Taken: 7 sec
+learning rate 0.0001327 -> 0.0001307
+End of epoch 134 / 200 	 Time Taken: 7 sec
+learning rate 0.0001307 -> 0.0001287
+saving the model at the end of epoch 135, iters 675
+End of epoch 135 / 200 	 Time Taken: 10 sec
+learning rate 0.0001287 -> 0.0001267
+End of epoch 136 / 200 	 Time Taken: 7 sec
+learning rate 0.0001267 -> 0.0001248
+End of epoch 137 / 200 	 Time Taken: 7 sec
+learning rate 0.0001248 -> 0.0001228
+End of epoch 138 / 200 	 Time Taken: 7 sec
+learning rate 0.0001228 -> 0.0001208
+End of epoch 139 / 200 	 Time Taken: 7 sec
+learning rate 0.0001208 -> 0.0001188
+(epoch: 140, iters: 5, time: 1.448, data: 0.536) D_A: 0.111 G_A: 0.714 cycle_A: 0.906 idt_A: 0.352 D_B: 0.142 G_B: 0.312 cycle_B: 0.757 idt_B: 0.440
+saving the model at the end of epoch 140, iters 700
+End of epoch 140 / 200 	 Time Taken: 8 sec
+learning rate 0.0001188 -> 0.0001168
+End of epoch 141 / 200 	 Time Taken: 7 sec
+learning rate 0.0001168 -> 0.0001149
+End of epoch 142 / 200 	 Time Taken: 7 sec
+learning rate 0.0001149 -> 0.0001129
+End of epoch 143 / 200 	 Time Taken: 7 sec
+learning rate 0.0001129 -> 0.0001109
+End of epoch 144 / 200 	 Time Taken: 7 sec
+learning rate 0.0001109 -> 0.0001089
+saving the model at the end of epoch 145, iters 725
+End of epoch 145 / 200 	 Time Taken: 10 sec
+learning rate 0.0001089 -> 0.0001069
+End of epoch 146 / 200 	 Time Taken: 7 sec
+learning rate 0.0001069 -> 0.0001050
+End of epoch 147 / 200 	 Time Taken: 7 sec
+learning rate 0.0001050 -> 0.0001030
+End of epoch 148 / 200 	 Time Taken: 7 sec
+learning rate 0.0001030 -> 0.0001010
+End of epoch 149 / 200 	 Time Taken: 7 sec
+learning rate 0.0001010 -> 0.0000990
+saving the model at the end of epoch 150, iters 750
+End of epoch 150 / 200 	 Time Taken: 8 sec
+learning rate 0.0000990 -> 0.0000970
+End of epoch 151 / 200 	 Time Taken: 7 sec
+learning rate 0.0000970 -> 0.0000950
+End of epoch 152 / 200 	 Time Taken: 7 sec
+learning rate 0.0000950 -> 0.0000931
+End of epoch 153 / 200 	 Time Taken: 7 sec
+learning rate 0.0000931 -> 0.0000911
+End of epoch 154 / 200 	 Time Taken: 7 sec
+learning rate 0.0000911 -> 0.0000891
+saving the model at the end of epoch 155, iters 775
+End of epoch 155 / 200 	 Time Taken: 11 sec
+learning rate 0.0000891 -> 0.0000871
+End of epoch 156 / 200 	 Time Taken: 7 sec
+learning rate 0.0000871 -> 0.0000851
+End of epoch 157 / 200 	 Time Taken: 7 sec
+learning rate 0.0000851 -> 0.0000832
+End of epoch 158 / 200 	 Time Taken: 7 sec
+learning rate 0.0000832 -> 0.0000812
+End of epoch 159 / 200 	 Time Taken: 7 sec
+learning rate 0.0000812 -> 0.0000792
+(epoch: 160, iters: 5, time: 3.666, data: 0.510) D_A: 0.203 G_A: 0.205 cycle_A: 0.697 idt_A: 0.250 D_B: 0.300 G_B: 0.256 cycle_B: 0.563 idt_B: 0.311
+saving the model at the end of epoch 160, iters 800
+End of epoch 160 / 200 	 Time Taken: 10 sec
+learning rate 0.0000792 -> 0.0000772
+End of epoch 161 / 200 	 Time Taken: 7 sec
+learning rate 0.0000772 -> 0.0000752
+End of epoch 162 / 200 	 Time Taken: 7 sec
+learning rate 0.0000752 -> 0.0000733
+End of epoch 163 / 200 	 Time Taken: 7 sec
+learning rate 0.0000733 -> 0.0000713
+End of epoch 164 / 200 	 Time Taken: 7 sec
+learning rate 0.0000713 -> 0.0000693
+saving the model at the end of epoch 165, iters 825
+End of epoch 165 / 200 	 Time Taken: 9 sec
+learning rate 0.0000693 -> 0.0000673
+End of epoch 166 / 200 	 Time Taken: 7 sec
+learning rate 0.0000673 -> 0.0000653
+End of epoch 167 / 200 	 Time Taken: 7 sec
+learning rate 0.0000653 -> 0.0000634
+End of epoch 168 / 200 	 Time Taken: 7 sec
+learning rate 0.0000634 -> 0.0000614
+End of epoch 169 / 200 	 Time Taken: 7 sec
+learning rate 0.0000614 -> 0.0000594
+saving the model at the end of epoch 170, iters 850
+End of epoch 170 / 200 	 Time Taken: 8 sec
+learning rate 0.0000594 -> 0.0000574
+End of epoch 171 / 200 	 Time Taken: 7 sec
+learning rate 0.0000574 -> 0.0000554
+End of epoch 172 / 200 	 Time Taken: 7 sec
+learning rate 0.0000554 -> 0.0000535
+End of epoch 173 / 200 	 Time Taken: 7 sec
+learning rate 0.0000535 -> 0.0000515
+End of epoch 174 / 200 	 Time Taken: 7 sec
+learning rate 0.0000515 -> 0.0000495
+saving the model at the end of epoch 175, iters 875
+End of epoch 175 / 200 	 Time Taken: 8 sec
+learning rate 0.0000495 -> 0.0000475
+End of epoch 176 / 200 	 Time Taken: 7 sec
+learning rate 0.0000475 -> 0.0000455
+End of epoch 177 / 200 	 Time Taken: 7 sec
+learning rate 0.0000455 -> 0.0000436
+End of epoch 178 / 200 	 Time Taken: 7 sec
+learning rate 0.0000436 -> 0.0000416
+End of epoch 179 / 200 	 Time Taken: 7 sec
+learning rate 0.0000416 -> 0.0000396
+(epoch: 180, iters: 5, time: 1.438, data: 0.529) D_A: 0.195 G_A: 0.225 cycle_A: 0.456 idt_A: 0.304 D_B: 0.165 G_B: 0.301 cycle_B: 0.673 idt_B: 0.195
+saving the model at the end of epoch 180, iters 900
+End of epoch 180 / 200 	 Time Taken: 8 sec
+learning rate 0.0000396 -> 0.0000376
+End of epoch 181 / 200 	 Time Taken: 7 sec
+learning rate 0.0000376 -> 0.0000356
+End of epoch 182 / 200 	 Time Taken: 7 sec
+learning rate 0.0000356 -> 0.0000337
+End of epoch 183 / 200 	 Time Taken: 7 sec
+learning rate 0.0000337 -> 0.0000317
+End of epoch 184 / 200 	 Time Taken: 7 sec
+learning rate 0.0000317 -> 0.0000297
+saving the model at the end of epoch 185, iters 925
+End of epoch 185 / 200 	 Time Taken: 8 sec
+learning rate 0.0000297 -> 0.0000277
+End of epoch 186 / 200 	 Time Taken: 7 sec
+learning rate 0.0000277 -> 0.0000257
+End of epoch 187 / 200 	 Time Taken: 7 sec
+learning rate 0.0000257 -> 0.0000238
+End of epoch 188 / 200 	 Time Taken: 7 sec
+learning rate 0.0000238 -> 0.0000218
+End of epoch 189 / 200 	 Time Taken: 7 sec
+learning rate 0.0000218 -> 0.0000198
+saving the model at the end of epoch 190, iters 950
+End of epoch 190 / 200 	 Time Taken: 10 sec
+learning rate 0.0000198 -> 0.0000178
+End of epoch 191 / 200 	 Time Taken: 7 sec
+learning rate 0.0000178 -> 0.0000158
+End of epoch 192 / 200 	 Time Taken: 7 sec
+learning rate 0.0000158 -> 0.0000139
+End of epoch 193 / 200 	 Time Taken: 7 sec
+learning rate 0.0000139 -> 0.0000119
+End of epoch 194 / 200 	 Time Taken: 7 sec
+learning rate 0.0000119 -> 0.0000099
+saving the model at the end of epoch 195, iters 975
+End of epoch 195 / 200 	 Time Taken: 8 sec
+learning rate 0.0000099 -> 0.0000079
+End of epoch 196 / 200 	 Time Taken: 7 sec
+learning rate 0.0000079 -> 0.0000059
+End of epoch 197 / 200 	 Time Taken: 7 sec
+learning rate 0.0000059 -> 0.0000040
+End of epoch 198 / 200 	 Time Taken: 7 sec
+learning rate 0.0000040 -> 0.0000020
+End of epoch 199 / 200 	 Time Taken: 7 sec
+learning rate 0.0000020 -> 0.0000000
+(epoch: 200, iters: 5, time: 1.451, data: 0.493) D_A: 0.224 G_A: 0.275 cycle_A: 0.407 idt_A: 0.290 D_B: 0.171 G_B: 0.310 cycle_B: 0.656 idt_B: 0.182
+saving the model at the end of epoch 200, iters 1000
+End of epoch 200 / 200 	 Time Taken: 10 sec
+/usr/local/lib/python3.7/dist-packages/torch/optim/lr_scheduler.py:134: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py:481: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  cpuset_checked))

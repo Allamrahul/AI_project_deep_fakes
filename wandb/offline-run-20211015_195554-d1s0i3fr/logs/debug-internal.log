@@ -1,0 +1,78 @@
+2021-10-15 19:55:56,249 INFO    MainThread:1180 [internal.py:wandb_internal():89] W&B internal server running at pid: 1180, started at: 2021-10-15 19:55:56.246060
+2021-10-15 19:55:56,253 INFO    WriterThread:1180 [datastore.py:open_for_write():77] open: /content/gdrive/My Drive/Workspace/pytorch-CycleGAN-and-pix2pix/wandb/offline-run-20211015_195554-d1s0i3fr/run-d1s0i3fr.wandb
+2021-10-15 19:55:56,254 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: run_start
+2021-10-15 19:55:57,982 DEBUG   HandlerThread:1180 [meta.py:__init__():40] meta init
+2021-10-15 19:55:57,982 DEBUG   HandlerThread:1180 [meta.py:__init__():54] meta init done
+2021-10-15 19:55:57,982 DEBUG   HandlerThread:1180 [meta.py:probe():211] probe
+2021-10-15 19:55:57,995 DEBUG   HandlerThread:1180 [meta.py:_setup_git():201] setup git
+2021-10-15 19:55:58,047 DEBUG   HandlerThread:1180 [meta.py:_setup_git():208] setup git done
+2021-10-15 19:55:58,048 DEBUG   HandlerThread:1180 [meta.py:_save_pip():58] save pip
+2021-10-15 19:55:58,053 DEBUG   HandlerThread:1180 [meta.py:_save_pip():72] save pip done
+2021-10-15 19:55:58,054 DEBUG   HandlerThread:1180 [meta.py:probe():249] probe done
+2021-10-15 22:19:10,909 WARNING MainThread:1180 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-10-15 22:19:15,370 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-15 22:19:15,370 DEBUG   SenderThread:1180 [sender.py:send():185] send: exit
+2021-10-15 22:19:15,371 INFO    SenderThread:1180 [sender.py:send_exit():294] handling exit code: 255
+2021-10-15 22:19:15,371 INFO    SenderThread:1180 [sender.py:send_exit():296] handling runtime: 8599
+2021-10-15 22:19:15,376 INFO    SenderThread:1180 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-15 22:19:15,376 INFO    SenderThread:1180 [sender.py:send_exit():306] send defer
+2021-10-15 22:19:15,377 DEBUG   SenderThread:1180 [sender.py:send_request():199] send_request: poll_exit
+2021-10-15 22:19:15,377 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: defer
+2021-10-15 22:19:15,378 INFO    HandlerThread:1180 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-15 22:19:15,378 DEBUG   SenderThread:1180 [sender.py:send_request():199] send_request: defer
+2021-10-15 22:19:15,379 INFO    SenderThread:1180 [sender.py:send_request_defer():315] handle sender defer: 0
+2021-10-15 22:19:15,379 INFO    SenderThread:1180 [sender.py:transition_state():319] send defer: 1
+2021-10-15 22:19:15,380 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: defer
+2021-10-15 22:19:15,380 INFO    HandlerThread:1180 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-15 22:19:15,393 DEBUG   SenderThread:1180 [sender.py:send_request():199] send_request: defer
+2021-10-15 22:19:15,393 INFO    SenderThread:1180 [sender.py:send_request_defer():315] handle sender defer: 1
+2021-10-15 22:19:15,393 INFO    SenderThread:1180 [sender.py:transition_state():319] send defer: 2
+2021-10-15 22:19:15,394 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: defer
+2021-10-15 22:19:15,394 INFO    HandlerThread:1180 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-15 22:19:15,395 DEBUG   SenderThread:1180 [sender.py:send_request():199] send_request: defer
+2021-10-15 22:19:15,395 INFO    SenderThread:1180 [sender.py:send_request_defer():315] handle sender defer: 2
+2021-10-15 22:19:15,395 INFO    SenderThread:1180 [sender.py:transition_state():319] send defer: 3
+2021-10-15 22:19:15,396 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: defer
+2021-10-15 22:19:15,396 INFO    HandlerThread:1180 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-15 22:19:15,397 DEBUG   SenderThread:1180 [sender.py:send_request():199] send_request: defer
+2021-10-15 22:19:15,397 INFO    SenderThread:1180 [sender.py:send_request_defer():315] handle sender defer: 3
+2021-10-15 22:19:15,397 INFO    SenderThread:1180 [sender.py:transition_state():319] send defer: 4
+2021-10-15 22:19:15,398 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: defer
+2021-10-15 22:19:15,398 INFO    HandlerThread:1180 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-15 22:19:15,399 DEBUG   SenderThread:1180 [sender.py:send_request():199] send_request: defer
+2021-10-15 22:19:15,399 INFO    SenderThread:1180 [sender.py:send_request_defer():315] handle sender defer: 4
+2021-10-15 22:19:15,399 INFO    SenderThread:1180 [sender.py:transition_state():319] send defer: 5
+2021-10-15 22:19:15,400 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: defer
+2021-10-15 22:19:15,400 INFO    HandlerThread:1180 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-15 22:19:15,400 DEBUG   SenderThread:1180 [sender.py:send_request():199] send_request: defer
+2021-10-15 22:19:15,401 INFO    SenderThread:1180 [sender.py:send_request_defer():315] handle sender defer: 5
+2021-10-15 22:19:15,401 INFO    SenderThread:1180 [sender.py:transition_state():319] send defer: 6
+2021-10-15 22:19:15,401 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: defer
+2021-10-15 22:19:15,401 INFO    HandlerThread:1180 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-15 22:19:15,402 DEBUG   SenderThread:1180 [sender.py:send_request():199] send_request: defer
+2021-10-15 22:19:15,402 INFO    SenderThread:1180 [sender.py:send_request_defer():315] handle sender defer: 6
+2021-10-15 22:19:15,402 INFO    SenderThread:1180 [sender.py:transition_state():319] send defer: 7
+2021-10-15 22:19:15,403 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: defer
+2021-10-15 22:19:15,403 INFO    HandlerThread:1180 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-15 22:19:15,403 DEBUG   SenderThread:1180 [sender.py:send_request():199] send_request: defer
+2021-10-15 22:19:15,403 INFO    SenderThread:1180 [sender.py:send_request_defer():315] handle sender defer: 7
+2021-10-15 22:19:15,404 INFO    SenderThread:1180 [sender.py:transition_state():319] send defer: 8
+2021-10-15 22:19:15,404 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: defer
+2021-10-15 22:19:15,404 INFO    HandlerThread:1180 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-15 22:19:15,405 DEBUG   SenderThread:1180 [sender.py:send_request():199] send_request: defer
+2021-10-15 22:19:15,406 INFO    SenderThread:1180 [sender.py:send_request_defer():315] handle sender defer: 8
+2021-10-15 22:19:15,408 INFO    SenderThread:1180 [sender.py:transition_state():319] send defer: 9
+2021-10-15 22:19:15,409 DEBUG   SenderThread:1180 [sender.py:send():185] send: final
+2021-10-15 22:19:15,410 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: defer
+2021-10-15 22:19:15,410 INFO    HandlerThread:1180 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-15 22:19:15,410 DEBUG   SenderThread:1180 [sender.py:send_request():199] send_request: defer
+2021-10-15 22:19:15,411 INFO    SenderThread:1180 [sender.py:send_request_defer():315] handle sender defer: 9
+2021-10-15 22:19:15,480 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-15 22:19:15,480 DEBUG   SenderThread:1180 [sender.py:send_request():199] send_request: poll_exit
+2021-10-15 22:19:15,481 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-15 22:19:15,483 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-15 22:19:15,485 DEBUG   HandlerThread:1180 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-15 22:19:15,485 INFO    HandlerThread:1180 [handler.py:finish():683] shutting down handler
+2021-10-15 22:19:16,409 INFO    WriterThread:1180 [datastore.py:close():281] close: /content/gdrive/My Drive/Workspace/pytorch-CycleGAN-and-pix2pix/wandb/offline-run-20211015_195554-d1s0i3fr/run-d1s0i3fr.wandb
+2021-10-15 22:19:16,481 INFO    SenderThread:1180 [sender.py:finish():986] shutting down sender
+2021-10-15 22:19:16,484 INFO    MainThread:1180 [internal.py:handle_exit():76] Internal process exited
