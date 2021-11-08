@@ -49,7 +49,7 @@ class TestModel(BaseModel):
         # please see <BaseModel.load_networks>
         setattr(self, 'netG' + opt.model_suffix, self.netG)  # store netG in self.
 
-    def set_input(self, input):
+    def set_input(self, opt, input):
         """Unpack input data from the dataloader and perform necessary pre-processing steps.
 
         Parameters:
@@ -57,8 +57,12 @@ class TestModel(BaseModel):
 
         We need to use 'single_dataset' dataset mode. It only load images from one domain.
         """
-        self.real = input['A'].to(self.device)
-        self.image_paths = input['A_paths']
+        if opt.src == 'A':
+            c = 'A'
+        else:
+            c = 'B'
+        self.real = input[c].to(self.device)
+        self.image_paths = input[c + '_paths']
 
     def forward(self):
         """Run forward pass."""
