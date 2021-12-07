@@ -1,13 +1,30 @@
-# AI_project_deep_fakes
+# DeepFakes: Masking and Unmasking Faces using Adversarial Network
 
-Goal: Deep faking of face masks onto unmasked faces.
+# Goal
+ 
+ The goal is to use deep learning techniques, specfically generative modelling to achieve unpaired image translation from
+      a. Unmasked face domain to masked face domain
+      b. Masked face domain to unmasked face domain
+ 
+ # Dataset
+ 
+ We use 2 different data-sets and curate them according to our use-case:
+ 1. Flickr-Faces-HQ (FFHQ) data-set for unmasked images
+ 2. MaskedFace-Net data-set for masked images
 
-# Methodology
-1. Clean and curate the original dataset of masked and unmasked individuals to get the images for training and testing. 
-2. We will be feeding pairs of masked and unmasked faces to the network so that both generator and the discriminator networks compete against each other so that the generator can learn to generate realistic face masked images. 
-3. We will be GANs (will explore out a few such as SimGAN, CycleGAN, StyleGAN, etc) to create realistic pictures of faces with facemasks.
-# Dataset
+For unmasked faces, FFHQ is a high-quality image dataset of human faces, originally created as a benchmark for generative adversarial networks (GAN). The data-set consists
+of 70,000 high-quality PNG images at 1024×1024 resolution with variation and diversity in terms of subjects and objects in the frame. 
+
+For our masked face data-set, we use the MaskedFace-Net dataset, which is a dataset of human faces with a correctly or incorrectly worn mask (133,783 images) based on the Flickr-Faces-HQ (FFHQ) data-set. The masks are photo-shopped onto the faces. Although the dataset is based on FFHQ, the facemasks are incorrectly masked for most of the images.
+
+For both of these data-sets, we curate images based on the number of faces in images, mask placement, mask clarity, and realistic effect of the mask on the image. We use a subset of 6000 masked images and 6000 unmasked images for training and 1000 test images from each of them were used for testing.
+ 
+ 
 The curated dataset can be found in the following drive link: https://drive.google.com/drive/folders/1qKIMJx949qAPC71GlGS1cGPceBISQGma?usp=sharing
+ 
+# Methodology
+
+
 
 # Deadlines
 
