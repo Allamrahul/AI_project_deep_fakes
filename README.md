@@ -19,11 +19,12 @@ For our masked face data-set, we use the MaskedFace-Net dataset, which is a data
 
 For both of these data-sets, we curate images based on the number of faces in images, mask placement, mask clarity, and realistic effect of the mask on the image. We use a subset of 6000 masked images and 6000 unmasked images for training and 1000 test images from each of them were used for testing.
  
- 
 The curated dataset can be found in the following drive link: https://drive.google.com/drive/folders/1qKIMJx949qAPC71GlGS1cGPceBISQGma?usp=sharing
  
 # Methodology
 
+We use the CycleGAN architecture to transform the images of unmasked faces into masked faces. The above problem is made more intricate by the fact that there does not exist a pair-to-pair data-set for masked to unmasked faces. We define pair to pair data-set as the same face without the mask and with the mask.
+![ai1](https://user-images.githubusercontent.com/18104407/144973798-d01f66de-1e40-47f5-9b23-00f2cc9f0c99.png)
 
 
 # Deadlines
