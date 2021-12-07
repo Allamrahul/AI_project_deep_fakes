@@ -4,9 +4,9 @@ The aim of this repository is to document the code and our work on our CS 534 AI
 
 # Project Goal
  
- The goal is to use deep learning techniques, specfically generative modelling to achieve unpaired image translation from
-      a. Unmasked face domain to masked face domain
-      b. Masked face domain to unmasked face domain
+ The goal is to use deep learning techniques, specfically generative modelling to achieve unpaired image translation from  
+      a. Unmasked face domain to masked face domain  
+      b. Masked face domain to unmasked face domain  
  
  # Dataset
  
