@@ -8,7 +8,7 @@ The aim of this repository is to document the code and our work on our CS 534 AI
  1. Unmasked face domain to masked face domain  
  2. Masked face domain to unmasked face domain  
 
-([Presentation](https://docs.google.com/presentation/d/1XSoOWRFtrMTeHUhrwKhRe_Uf_TKeRI3R/edit?usp=sharing&ouid=101007956401404885384&rtpof=true&sd=true)) ([Paper](https://drive.google.com/file/d/1wn1rLJiwvzM0xm0jTo1IsQnBQcv3aPbN/view?usp=sharing)) 
+([Presentation](https://docs.google.com/presentation/d/1XSoOWRFtrMTeHUhrwKhRe_Uf_TKeRI3R/edit?usp=sharing&ouid=101007956401404885384&rtpof=true&sd=true)) ([Paper](https://drive.google.com/file/d/11DmVHPEXjDv80aXT96OrS3-N1nQVY50O/view?usp=sharing)) 
  
  # Dataset
  
